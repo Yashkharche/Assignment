@@ -1,0 +1,24 @@
+.product-main{
+    padding: 2vw;
+    font-family: poppins;
+}
+.product-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 0vw;
+}
+.product-header p{
+    font-size: 2vw;
+}
+.product-header #logout{
+    font-size: 1vw;
+    color: red;
+    font-weight: 600;
+    cursor: pointer;
+}
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    
+}

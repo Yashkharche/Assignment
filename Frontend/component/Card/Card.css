@@ -1,0 +1,55 @@
+.card-main{
+    width: 20vw;
+    height: 21vw;
+    background-color:rgb(203, 199, 199);
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    margin: 1vw;
+    gap: .7vw;
+    padding: 2vw;
+    font-family: poppins;
+}
+.card-heading p:nth-child(1){
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+.card-heading p:nth-child(2){
+    font-size: .8vw;
+    font-weight: 600;
+}
+.card-main #desc{
+  font-size: 1vw;
+  overflow: auto;
+  height: 8vw;
+}
+.card-main #desc::-webkit-scrollbar{
+    display: none;
+}
+.card-main #price{
+    font-size: 1vw;
+    background-color:white;
+    width: 6vw;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    font-family: poppins;
+}
+.button button{
+padding:.5vw;
+border-radius: 10px;
+border: none;
+
+}
+.button button:hover{
+    background-color: rgb(154, 151, 151);
+}
