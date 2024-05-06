@@ -32,12 +32,14 @@ try {
   console.error(error);
 }
  }
+
   return (
     <div className='product-main'>
        <div className="product-header">
         <p>Product</p>
         <div style={{display:'flex',alignItems:'center',gap:'1vw'}}>
         <p>{user.role} is logined</p>
+        <p style={{fontSize:'1.2vw',cursor:'pointer'}} onClick={()=>{navigate('/addadmin')}}>Add Admin</p>
         <p id='logout' onClick={handleLogout}>logout</p>
         </div>
        </div>

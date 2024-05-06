@@ -6,6 +6,7 @@ import Product from '../page/Product/Product'
 import ProtectedRoutes from '../component/ProtectedRoutes/ProtectedRoutes'
 import UpdateProduct from '../page/UpdateProduct/UpdateProduct'
 import AddProduct from '../page/AddProduct/AddProduct'
+import { addAdmin } from '../../Backend/controller/authController'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
        <Route path='/product' element={<Product/>}/>
        <Route path='/addproduct' element={<AddProduct/>}/>
        <Route path='/product/update/:id' element={<UpdateProduct/>}/>
+       <Route path='/addadmin' element={<addAdmin/>}/>
        </Route>
       </Routes>
     </Router>
